@@ -1,0 +1,26 @@
+{
+    "name": "prebid",
+    "version": "1.0.0",
+    "description": "Modular Prebid Setup",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "http-server -p 8080"
+    },
+    "dependencies": {
+        "http-server": "^0.13.0"
+    },
+    "eslintConfig": {
+        "extends": "./config/.eslintrc.json"
+    },
+    "prettier": "./config/.prettierrc.json",
+    "stylelint": {
+        "extends": "./config/.stylelintrc.json"
+    },
+    "devDependencies": {
+        "stylelint-config-standard-scss": "^13.1.0",
+        "stylelint-processor-styled-components": "^1.10.0",
+        "stylelint-scss": "^6.2.1"
+    },
+    "author": "",
+    "license": "ISC"
+}
